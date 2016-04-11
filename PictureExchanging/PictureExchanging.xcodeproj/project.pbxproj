@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		18DE5A6F1CBA57E100AC5A00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE5A6E1CBA57E100AC5A00 /* main.m */; };
 		18DE5A721CBA57E100AC5A00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE5A711CBA57E100AC5A00 /* AppDelegate.m */; };
-		18DE5A751CBA57E100AC5A00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE5A741CBA57E100AC5A00 /* ViewController.m */; };
 		18DE5A781CBA57E100AC5A00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DE5A761CBA57E100AC5A00 /* Main.storyboard */; };
 		18DE5A7B1CBA57E100AC5A00 /* PictureExchanging.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18DE5A791CBA57E100AC5A00 /* PictureExchanging.xcdatamodeld */; };
 		18DE5A7D1CBA57E100AC5A00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DE5A7C1CBA57E100AC5A00 /* Assets.xcassets */; };
 		18DE5A801CBA57E100AC5A00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DE5A7E1CBA57E100AC5A00 /* LaunchScreen.storyboard */; };
 		18DE5A8B1CBA57E100AC5A00 /* PictureExchangingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE5A8A1CBA57E100AC5A00 /* PictureExchangingTests.m */; };
 		18DE5A961CBA57E100AC5A00 /* PictureExchangingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE5A951CBA57E100AC5A00 /* PictureExchangingUITests.m */; };
+		18DE5AA51CBA664200AC5A00 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE5AA41CBA664200AC5A00 /* HomeViewController.m */; };
+		18DE5AA81CBA668D00AC5A00 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE5AA71CBA668D00AC5A00 /* ChatViewController.m */; };
+		18DE5AAB1CBA66A400AC5A00 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE5AAA1CBA66A400AC5A00 /* MineViewController.m */; };
+		18DE5AAE1CBA69F400AC5A00 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE5AAD1CBA69F400AC5A00 /* SetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +43,6 @@
 		18DE5A6E1CBA57E100AC5A00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18DE5A701CBA57E100AC5A00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18DE5A711CBA57E100AC5A00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18DE5A731CBA57E100AC5A00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18DE5A741CBA57E100AC5A00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18DE5A771CBA57E100AC5A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18DE5A7A1CBA57E100AC5A00 /* PictureExchanging.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PictureExchanging.xcdatamodel; sourceTree = "<group>"; };
 		18DE5A7C1CBA57E100AC5A00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +54,14 @@
 		18DE5A911CBA57E100AC5A00 /* PictureExchangingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureExchangingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DE5A951CBA57E100AC5A00 /* PictureExchangingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureExchangingUITests.m; sourceTree = "<group>"; };
 		18DE5A971CBA57E100AC5A00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DE5AA31CBA664200AC5A00 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		18DE5AA41CBA664200AC5A00 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		18DE5AA61CBA668D00AC5A00 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		18DE5AA71CBA668D00AC5A00 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		18DE5AA91CBA66A400AC5A00 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		18DE5AAA1CBA66A400AC5A00 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		18DE5AAC1CBA69F400AC5A00 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		18DE5AAD1CBA69F400AC5A00 /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +114,14 @@
 			children = (
 				18DE5A701CBA57E100AC5A00 /* AppDelegate.h */,
 				18DE5A711CBA57E100AC5A00 /* AppDelegate.m */,
-				18DE5A731CBA57E100AC5A00 /* ViewController.h */,
-				18DE5A741CBA57E100AC5A00 /* ViewController.m */,
+				18DE5AA31CBA664200AC5A00 /* HomeViewController.h */,
+				18DE5AA41CBA664200AC5A00 /* HomeViewController.m */,
+				18DE5AA61CBA668D00AC5A00 /* ChatViewController.h */,
+				18DE5AA71CBA668D00AC5A00 /* ChatViewController.m */,
+				18DE5AA91CBA66A400AC5A00 /* MineViewController.h */,
+				18DE5AAA1CBA66A400AC5A00 /* MineViewController.m */,
+				18DE5AAC1CBA69F400AC5A00 /* SetViewController.h */,
+				18DE5AAD1CBA69F400AC5A00 /* SetViewController.m */,
 				18DE5A761CBA57E100AC5A00 /* Main.storyboard */,
 				18DE5A7C1CBA57E100AC5A00 /* Assets.xcassets */,
 				18DE5A7E1CBA57E100AC5A00 /* LaunchScreen.storyboard */,
@@ -273,10 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DE5A751CBA57E100AC5A00 /* ViewController.m in Sources */,
 				18DE5A721CBA57E100AC5A00 /* AppDelegate.m in Sources */,
 				18DE5A7B1CBA57E100AC5A00 /* PictureExchanging.xcdatamodeld in Sources */,
+				18DE5AA81CBA668D00AC5A00 /* ChatViewController.m in Sources */,
+				18DE5AAE1CBA69F400AC5A00 /* SetViewController.m in Sources */,
+				18DE5AAB1CBA66A400AC5A00 /* MineViewController.m in Sources */,
 				18DE5A6F1CBA57E100AC5A00 /* main.m in Sources */,
+				18DE5AA51CBA664200AC5A00 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +520,7 @@
 				18DE5A9C1CBA57E100AC5A00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18DE5A9D1CBA57E100AC5A00 /* Build configuration list for PBXNativeTarget "PictureExchangingTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +529,7 @@
 				18DE5A9F1CBA57E100AC5A00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18DE5AA01CBA57E100AC5A00 /* Build configuration list for PBXNativeTarget "PictureExchangingUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +538,7 @@
 				18DE5AA21CBA57E100AC5A00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

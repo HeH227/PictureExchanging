@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "HomeViewController.h"
+#import "ChatViewController.h"
+#import "MineViewController.h"
+#import "SetViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,8 +22,39 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    ViewController *rootVC = [[ViewController alloc] init];
     UITabBarController *rootBarC = [[UITabBarController alloc] init];
+    self.window.rootViewController = rootBarC;
+    
+    HomeViewController *homeVC = [[HomeViewController alloc] init];
+    UINavigationController *homeNC = [[UINavigationController alloc] initWithRootViewController:homeVC];
+    UIImage *homeImage = [UIImage imageNamed:@"tabbar_home"];
+    homeImage = [homeImage imageWithRenderingMode:(UIImageRenderingModeAlwaysOriginal)];
+    homeNC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"首页" image:homeImage tag:101];
+    
+    ChatViewController *chatVC = [[ChatViewController alloc] init];
+    UINavigationController *chatNC = [[UINavigationController alloc] initWithRootViewController:chatVC];
+    UIImage *chatImage = [UIImage imageNamed:@"tabbar_chat"];
+    chatImage = [chatImage imageWithRenderingMode:(UIImageRenderingModeAlwaysOriginal)];
+    chatNC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"微聊" image:chatImage tag:102];
+    
+    MineViewController *mineVC = [[MineViewController alloc] init];
+    UINavigationController *mineNC = [[UINavigationController alloc] initWithRootViewController:mineVC];
+    UIImage *mineImage = [UIImage imageNamed:@"tabbar_mine"];
+    mineImage = [mineImage imageWithRenderingMode:(UIImageRenderingModeAlwaysOriginal)];
+    mineNC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"我的" image:mineImage tag:103];
+    
+    SetViewController *setVC = [[SetViewController alloc] init];
+    UINavigationController *setNC = [[UINavigationController alloc] initWithRootViewController:setVC];
+    UIImage *setImage = [UIImage imageNamed:@"tabbar_set.png"];
+    setImage = [setImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    setNC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"设置" image:setImage tag:104];
+    
+    [rootBarC addChildViewController:homeNC];
+    [rootBarC addChildViewController:chatNC];
+    [rootBarC addChildViewController:mineNC];
+    [rootBarC addChildViewController:setNC];
+    
+    [self.window makeKeyAndVisible];
     
     return YES;
 }
